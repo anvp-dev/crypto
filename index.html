@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- 
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon//favicon-16x16.png">
+    <link rel="manifest" href="/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> -->
+
+
+
+    <link rel="stylesheet" href="css/style.min.css?_v=20220902144402">
+    <script src="js/app.min.js?_v=20220902144402" defer></script>
+    <title>Crypto</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="header__content">
+            <div class="header__logo">
+                <img src="./img/logo.svg" alt="logo">
+            </div>
+            <nav class="header__nav">
+                <ul class="nav-menu">
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#">
+                            Токемоника
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#">
+                            Статистика
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#">
+                            Блог
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="menu button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <div class="hero">
+    <div class="hero__top">
+        <div class="hero__container">
+            <div class="hero__content content-hero">
+                <h1 class="content-hero__title">
+                    Заработай на <br>
+                    <span>Своей Crypto</span>
+                </h1>
+                <p class="content-hero__text">
+                    Пусть ваша криптовалюта работает на вас и приносит вознаграждение.
+                </p>
+                <a class="content-hero__btn" href="#">
+                    Заработать
+                </a>
+            </div>
+            <div class="hero__preview preview-hero">
+                <div class="preview-hero__icon">
+                    <img src="./img/plant.svg" alt="img">
+                </div>
+                <ul class="preview-hero__list">
+                    <li class="preview-hero__list-item">
+                        <img src="./img/ecosystem/exchange.svg" alt="img">
+                    </li>
+                    <li class="preview-hero__list-item">
+                        <img src="./img/ecosystem/farm.svg" alt="img">
+                    </li>
+                    <li class="preview-hero__list-item">
+                        <img src="./img/ecosystem/stake.svg" alt="img">
+                    </li>
+                    <li class="preview-hero__list-item">
+                        <img src="./img/ecosystem/grow.svg" alt="img">
+                    </li>
+                    <li class="preview-hero__list-item">
+                        <img src="./img/ecosystem/liwuidity.svg" alt="img">
+                    </li>
+                    <li class="preview-hero__list-item">
+                        <img src="./img/ecosystem/referal.svg" alt="img">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero__bottom">
+        <div class="video" data-video="https://www.youtube.com/embed/yTcr0OYqozw?autoplay=1">
+            <div class="video__button"></div>
+        </div>
+    </div>
+
+
+
+</div>
+            <section class="earn">
+    <div class="container">
+        <div class="earn__body">
+            <div class="earn__chart chart">
+                <div class="chart__item">
+                    <div class="chart__item-line"></div>
+                    <p class="chart__item-text">Liquidity Provision</p>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__item-line"></div>
+                    <p class="chart__item-text">Lending</p>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__item-line"></div>
+                    <p class="chart__item-text">Auto
+                        Rewards</p>
+                </div>
+                <div class="chart__item">
+                    <div class="chart__item-line"></div>
+                    <p class="chart__item-text">Staking</p>
+                </div>
+            </div>
+            <div class="earn__content">
+                <h2 class="earn__title">
+                    Дополнительный доход
+                </h2>
+                <p class="earn__text">
+                    Сборщик сделает всю тяжелую работу
+                </p>
+                <ul class="earn__list">
+                    <li class="earn__list-item">
+                        Реинвестирование
+                    </li>
+                    <li class=" earn__list-item">
+                        Ежегодные вознаграждения
+                    </li>
+                    <li class="earn__list-item">
+                        Зарабаток на ферме
+                    </li>
+                    <li class="earn__list-item">
+                        Уникальные награды токенов
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="ecosystem">
+    <div class="container">
+        <div class="ecosystem__content">
+            <h2 class="ecosystem__title title">Наши возможности</h2>
+        </div>
+        <ul class="ecosystem__cards">
+            <li class="ecosystem__cards-item">
+                <div class="ecosystem__cards-img">
+                    <img src="./img/ecosystem/exchange.svg" alt="img">
+                </div>
+                <h3 class="ecosystem__cards-title">Биржа</h3>
+                <p class="ecosystem__cards-text">
+                    Обменивай свои токены на другие
+                </p>
+            </li>
+            <li class="ecosystem__cards-item">
+                <div class="ecosystem__cards-img">
+                    <img src="./img/ecosystem/farm.svg" alt="img">
+                </div>
+                <h3 class="ecosystem__cards-title">Ферма</h3>
+                <p class="ecosystem__cards-text">
+                    Зарабатывай LP токены и обменивай на другие
+                </p>
+            </li>
+            <li class="ecosystem__cards-item">
+                <div class="ecosystem__cards-img">
+                    <img src="./img/ecosystem/stake.svg" alt="img">
+                </div>
+                <h3 class="ecosystem__cards-title">Акции</h3>
+                <p class="ecosystem__cards-text">
+                    Ставки до 100% APY
+                </p>
+            </li>
+            <li class="ecosystem__cards-item">
+                <div class="ecosystem__cards-img">
+                    <img src="./img/ecosystem/referal.svg" alt="img">
+                </div>
+                <h3 class="ecosystem__cards-title">Рекомендации</h3>
+                <p class="ecosystem__cards-text">
+                    Пригласи друга и заработать больше
+                </p>
+            </li>
+            <li class="ecosystem__cards-item">
+                <div class="ecosystem__cards-img">
+                    <img src="./img/ecosystem/liwuidity.svg" alt="img">
+                </div>
+                <h3 class="ecosystem__cards-title">Пулы ликвидности</h3>
+                <p class="ecosystem__cards-text">
+                    Обмен токенов
+                </p>
+            </li>
+            <li class="ecosystem__cards-item">
+                <div class="ecosystem__cards-img">
+                    <img src="./img/ecosystem/bingo.svg" alt="img">
+                </div>
+                <h3 class="ecosystem__cards-title">Лотерея</h3>
+                <p class="ecosystem__cards-text">
+                    Испытайте свою удачу в лотерее
+                </p>
+            </li>
+        </ul>
+        <div class="ecosystem__btn">
+            <a class="ecosystem__btn-link btn" href="#">Заработать</a>
+        </div>
+    </div>
+</section>
+            <section class="info">
+    <div class="container">
+        <div class="info__content">
+            <h2 class="info__title title">
+                Информация
+            </h2>
+            <ul class="info__cards">
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/01.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">Общие объемы</p>
+                    <p class="info__cards-sum">$ 48.36B</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/02.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">Объем 24 часа</p>
+                    <p class="info__cards-sum">$33.70M</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/03.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">Активных пользователей</p>
+                    <p class="info__cards-sum">486.59K</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/04.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">Экономия</p>
+                    <p class="info__cards-sum">$ 116.05M</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/05.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">Заработанных LP</p>
+                    <p class="info__cards-sum">$ 24.18M</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/06.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">Майнинг</p>
+                    <p class="info__cards-sum">$ 34.36B</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/07.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">TVL</p>
+                    <p class="info__cards-sum">$33.70M</p>
+                </li>
+                <li class="info__cards-item">
+                    <div class="info__cards-img">
+                        <img src="./img/info/08.svg" alt="img">
+                    </div>
+                    <p class="info__cards-text">оборотного предложения</p>
+                    <p class="info__cards-sum">486.59K</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+            <section class="farm">
+    <h2 class="farm__title title">
+        Майнинг
+    </h2>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+                <div class="stake__img-item stake__img-item--black">
+                    <img src="./img/dot-square.svg" alt="">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+                <div class="stake__img-item stake__img-item--yellow">
+                    <img src="./img/dot-lines.svg" alt="">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--yellow">
+                    <img src="./img/dot-lines.svg" alt="img">
+                </div>
+                <div class="stake__img-item stake__img-item--black">
+                    <img src="./img/dot-square.svg" alt="img">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+</section>
+            <section class="pool">
+    <h2 class="pool__title title">
+        Токен POOL
+    </h2>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+                <div class="stake__img-item stake__img-item--black">
+                    <img src="./img/dot-square.svg" alt="">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+                <div class="stake__img-item stake__img-item--yellow">
+                    <img src="./img/dot-lines.svg" alt="">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+    <div class="stake">
+        <div class="stake__item">
+            <div class="stake__img">
+                <div class="stake__img-item stake__img-item--black">
+                    <img src="./img/dot-square.svg" alt="">
+                </div>
+                <div class="stake__img-item stake__img-item--green">
+                    <img src="./img/plant.svg" alt="">
+                </div>
+            </div>
+            <div class="stake__wrap">
+                <h3 class="stake__item-title">Earn FARM - BNB</h3>
+                <p class="stake__item-text">Stake FARM - Earn FARM</p>
+            </div>
+        </div>
+        <div class="stake__status">
+            <div class="stake__status-wrap">
+                <div class="stake__status-fee">APR</div>
+                <div class="stake__status-value">78.2 %</div>
+            </div>
+            <a class="stake__status-link" href="#">Заработать</a>
+        </div>
+    </div>
+</section>
+            <section class="company">
+    <div class="container">
+        <div class="company__item">
+            <div class="company__title title">
+                Представители
+            </div>
+            <ul class="company__list list-company">
+                <li class="list-company__item">
+                    <img src="./img/company/feature-1.svg" alt="img">
+                </li>
+                <li class="list-company__item">
+                    <img src="./img/company/feature-2.svg" alt="img">
+                </li>
+                <li class="list-company__item">
+                    <img src="./img/company/feature-3.svg" alt="img">
+                </li>
+            </ul>
+        </div>
+        <div class="company__item">
+            <div class="company__title title">
+                Проверено
+            </div>
+            <ul class="company__list list-company">
+                <li class="list-company__item">
+                    <picture><source srcset="./img/company/audited-1.webp" type="image/webp"><img src="./img/company/audited-1.png" alt="img"></picture>
+                </li>
+                <li class="list-company__item">
+                    <picture><source srcset="./img/company/audited-2.webp" type="image/webp"><img src="./img/company/audited-2.png" alt="img"></picture>
+                </li>
+                <li class="list-company__item">
+                    <picture><source srcset="./img/company/audited-3.webp" type="image/webp"><img src="./img/company/audited-3.png" alt="img"></picture>
+                </li>
+                <li class="list-company__item">
+                    <picture><source srcset="./img/company/audited-4.webp" type="image/webp"><img src="./img/company/audited-4.png" alt="img"></picture>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+            <section class="buy">
+    <div class="container">
+        <div class="buy__cards">
+            <div class="buy__card">
+                <h3 class="buy__card-title">
+                    Зарабатывай токены
+                </h3>
+                <p class="buy__card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id in nec nullam faucibus et
+                </p>
+                <a class="buy__card-link btn" href="#">
+                    Заработать
+                </a>
+            </div>
+            <div class="buy__card">
+                <h3 class="buy__card-title">
+                    Вноси и зарабатывай
+                </h3>
+                <p class="buy__card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id in nec nullam faucibus et
+                </p>
+                <a class="buy__card-link btn" href="#">
+                    Заработать
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="buy__wrap">
+        <div class="buy__container-fluid">
+            <div class="buy__wrap-decor"></div>
+            <h2 class="buy__title title">
+                <span>Покупай</span> и зарабатывай
+            </h2>
+            <div class="buy__button">
+                <div class="buy__button-icon">
+                    <img src="./img/plant.svg" alt="img">
+                </div>
+                <a class="buy__button-link" href="#">Приобрести</a>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <h2 class="footer__titile">
+            Присоединяйтесь
+        </h2>
+        <ul class="footer__list list-footer">
+            <li class="list-footer__item">
+                <a class="list-footer__link" href="#">
+                    <img src="./img/footer/youtube.svg" alt="youtube">
+                    <p>Youtube</p>
+                </a>
+            </li>
+            <li class="list-footer__item">
+                <a class="list-footer__link" href="#">
+                    <img src="./img/footer/facebook.svg" alt="facebook">
+                    <p>Facebook</p>
+                </a>
+            </li>
+            <li class="list-footer__item">
+                <a class="list-footer__link" href="#">
+                    <img src="./img/footer/telegram.svg" alt="telegram">
+                    <p>Telegram</p>
+                </a>
+            </li>
+            <li class="list-footer__item">
+                <a class="list-footer__link" href="#">
+                    <img src="./img/footer/twitter.svg" alt="twitter">
+                    <p>Twitter</p>
+                </a>
+            </li>
+        </ul>
+        <p class="footer__copyright">
+            Copyright © 2022 FarmGrow. All rights reserved.
+        </p>
+    </div>
+</footer>
+    </div>
+</body>
+
+</html>
